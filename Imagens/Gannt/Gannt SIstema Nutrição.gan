@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Sistema de Nutrição" company="" webLink="http://" view-date="2022-08-14" view-index="0" gantt-divider-location="195" resource-divider-location="300" version="3.2.3200" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="120" order="0"/>
+        <field id="tpd4" name="Data inicial" width="29" order="1"/>
+        <field id="tpd5" name="Data final" width="30" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#009900 #00cccc #66ff66 #ffff66 #ff3333 #6666ff #cc00cc #ff33ff #ff66ff #ffccff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="199" order="0"/>
+        <field id="1" name="Função" width="82" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Fazer integração da equipe" color="#ccffcc" meeting="false" start="2022-08-01" duration="2" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <task id="2" name="Selecionar membros da equipe" color="#ccffcc" meeting="false" start="2022-08-01" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Apresentação dos membros" color="#ccffcc" meeting="false" start="2022-08-02" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="5" name="Obter requisitos" color="#ccffff" meeting="false" start="2022-08-03" duration="6" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <task id="35" name="Conduzir sessão de brain storm" color="#ccffff" meeting="false" start="2022-08-03" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" name="Entrevistar Cliente" color="#ccffff" meeting="false" start="2022-08-04" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" name="Estudar sistemas semelhantes" color="#ccffff" meeting="false" start="2022-08-05" duration="2" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" name="Estudar Viabilidade do sistema" color="#ccffff" meeting="false" start="2022-08-09" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" name="Definir estrutura tecnologica" color="#ccffff" meeting="false" start="2022-08-10" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="11" name="Documentar Requisistos" color="#ffccff" meeting="false" start="2022-08-11" duration="4" complete="0" thirdDate="2022-08-10" thirdDate-constraint="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <task id="49" name="Criar Documento de requisitos" color="#ff66ff" meeting="false" start="2022-08-11" duration="3" complete="0" thirdDate="2022-08-10" thirdDate-constraint="0" expand="true">
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+                <task id="51" name="Descrição geral" color="#ff66ff" meeting="false" start="2022-08-11" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" name="Definir os requisitos funcionais" color="#ff66ff" meeting="false" start="2022-08-12" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                    <depend id="53" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="53" name="Definir os requisitos não funcionais" color="#ff33ff" meeting="false" start="2022-08-15" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="54" name="Criar glossário de termos tecnicos" color="#ffccff" meeting="false" start="2022-08-16" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="12" name="Obter Aprovação dos requisitos" color="#cc00cc" meeting="false" start="2022-08-17" duration="3" complete="0" thirdDate="2022-08-16" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <task id="57" name="Reunir com o cliente e equipe" color="#cc00cc" meeting="false" start="2022-08-17" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="58" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="58" name="Efetuar correçoes no modelo" color="#cc00cc" meeting="false" start="2022-08-18" duration="2" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="13" name="Criar Modelagem UML" color="#8cb6ce" meeting="false" start="2022-08-22" duration="11" complete="0" thirdDate="2022-08-19" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+            <task id="62" name="Criar Diagrama de caso de uso" color="#8cb6ce" meeting="false" start="2022-08-22" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="67" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="67" name="Criar diagrama de atividades" meeting="false" start="2022-08-23" duration="1" complete="0" expand="true">
+                <depend id="68" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="68" name="Criar diagrama de estados" meeting="false" start="2022-08-24" duration="1" complete="0" expand="true">
+                <depend id="64" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="64" name="Efetuar dinamica com Cartões CRC" color="#8cb6ce" meeting="false" start="2022-08-25" duration="1" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" name="Criar diagrama de classe" color="#8cb6ce" meeting="false" start="2022-08-26" duration="3" complete="0" thirdDate="2022-08-24" thirdDate-constraint="0" expand="true">
+                <depend id="73" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="73" name="Criar diagrama de classe de projeto(usando Desing patern)" color="#8cb6ce" meeting="false" start="2022-08-31" duration="3" complete="0" thirdDate="2022-08-31" thirdDate-constraint="0" expand="true">
+                <depend id="74" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="74" name="Criar diagrama de sequencia de projeto" color="#8cb6ce" meeting="false" start="2022-09-05" duration="1" complete="0" thirdDate="2022-09-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="14" name="Criar tabelas em Bancos de Dados" color="#6666ff" meeting="false" start="2022-09-06" duration="4" complete="0" thirdDate="2022-08-31" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="Progamar Funcoes do sistema" color="#ff3333" meeting="false" start="2022-09-12" duration="24" complete="0" thirdDate="2022-08-31" thirdDate-constraint="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <task id="77" name="Progamar funções referentes aos CRUD" color="#ff3333" meeting="false" start="2022-09-12" duration="7" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="79" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="79" name="Progamar funções referentes a Consulta" color="#ff3333" meeting="false" start="2022-09-21" duration="6" complete="0" thirdDate="2022-09-06" thirdDate-constraint="0" expand="true">
+                <depend id="81" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="81" name="Progamar funções referentes a Acompanhamento" color="#ff3333" meeting="false" start="2022-09-29" duration="6" complete="0" thirdDate="2022-09-07" thirdDate-constraint="0" expand="true">
+                <depend id="82" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="82" name="Progamar funções referentes ao registro diario" color="#ff3333" meeting="false" start="2022-10-07" duration="5" complete="0" thirdDate="2022-09-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="16" name="Criar Prototipos das telas" color="#ffff66" meeting="false" start="2022-09-12" duration="12" complete="0" thirdDate="2022-09-09" thirdDate-constraint="0" expand="true">
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+            <task id="99" name="Prototipar tela para CRUD" color="#ffff66" meeting="false" start="2022-09-12" duration="2" complete="0" thirdDate="2022-09-07" thirdDate-constraint="0" expand="true">
+                <depend id="100" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="100" name="Prototipar tela para Consulta" color="#ffff66" meeting="false" start="2022-09-14" duration="2" complete="0" thirdDate="2022-09-12" thirdDate-constraint="0" expand="true">
+                <depend id="101" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="101" name="Prototipar tela para Acompanhamento" color="#ffff66" meeting="false" start="2022-09-16" duration="2" complete="0" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true">
+                <depend id="102" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="102" name="Prototipar tela para registro diario" color="#ffff66" meeting="false" start="2022-09-20" duration="2" complete="0" thirdDate="2022-09-14" thirdDate-constraint="0" expand="true">
+                <depend id="103" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="103" name="Prototipar tela para login" color="#ffff66" meeting="false" start="2022-09-22" duration="2" complete="0" thirdDate="2022-09-15" thirdDate-constraint="0" expand="true">
+                <depend id="104" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="104" name="Prototipar tela para menu" color="#ffff66" meeting="false" start="2022-09-26" duration="2" complete="0" thirdDate="2022-09-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="17" name="Criar telas do sistema" color="#66ff66" meeting="false" start="2022-09-28" duration="12" complete="0" thirdDate="2022-09-19" thirdDate-constraint="0" expand="true">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <task id="92" name="Criar telas dos CRUD" color="#66ff66" meeting="false" start="2022-09-28" duration="2" complete="0" thirdDate="2022-09-15" thirdDate-constraint="0" expand="true">
+                <depend id="93" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="93" name="Criar telas da Consulta" color="#66ff66" meeting="false" start="2022-09-30" duration="2" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+                <depend id="94" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="94" name="Criar telas do Acompanhamento" color="#66ff66" meeting="false" start="2022-10-04" duration="2" complete="0" thirdDate="2022-09-21" thirdDate-constraint="0" expand="true">
+                <depend id="95" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="95" name="Criar telas do Registro diario" color="#66ff66" meeting="false" start="2022-10-06" duration="2" complete="0" thirdDate="2022-09-22" thirdDate-constraint="0" expand="true">
+                <depend id="96" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="96" name="Criar telas do login" color="#66ff66" meeting="false" start="2022-10-10" duration="2" complete="0" thirdDate="2022-09-23" thirdDate-constraint="0" expand="true">
+                <depend id="97" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="97" name="Criar telas do menu principal" color="#66ff66" meeting="false" start="2022-10-12" duration="2" complete="0" thirdDate="2022-09-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="18" name="Juntar telas com as funcionalidades" color="#009900" meeting="false" start="2022-10-14" duration="6" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" name="Testar Sistema" color="#00cccc" meeting="false" start="2022-10-24" duration="10" complete="0" thirdDate="2022-09-28" thirdDate-constraint="0" expand="true">
+            <task id="107" name="Disponibilização da versão beta para testes" color="#00cccc" meeting="false" start="2022-10-24" duration="5" complete="0" thirdDate="2022-09-26" thirdDate-constraint="0" expand="true">
+                <depend id="109" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="109" name="Corrigir Erros recorrentes" color="#00cccc" meeting="false" start="2022-10-31" duration="3" complete="0" thirdDate="2022-09-29" thirdDate-constraint="0" expand="true">
+                <depend id="110" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="110" name="Avalair o Sistema" color="#00cccc" meeting="false" start="2022-11-03" duration="2" complete="0" thirdDate="2022-09-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="4" name="Arthur Aguiar" function="Default:1" contacts="nineninenine@nine9.com" phone="32 99999-9999"/>
+        <resource id="0" name="Ayanokoji Kiyotaka" function="3" contacts="kiopom73@gmail.com" phone="(32) 9 9999-7070"/>
+        <resource id="1" name="Arthur Leywin" function="1" contacts="artnotagrey@gmail.com" phone="(32) 9 99932424"/>
+        <resource id="2" name="Rudeus Greyrat" function="2" contacts="rudy.atoleiro@gmail.com" phone="(32) 9 9969-6699"/>
+        <resource id="3" name="Guilherme Rodrigues" function="1" contacts="guilhermerodrigues.0721@gmail.com" phone="(33) 9 9993-2719"/>
+    </resources>
+    <allocations>
+        <allocation task-id="5" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="17" resource-id="1" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="18" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Progamador"/>
+        <role id="2" name="UI/UX Designer"/>
+        <role id="3" name="Analista de Sistema"/>
+        <role id="4" name=""/>
+    </roles>
+</project>
